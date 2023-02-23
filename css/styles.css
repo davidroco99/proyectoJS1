@@ -58,12 +58,12 @@
 	padding-right: 30px;
 }
 
-#galeriaImg{
+.galeriaImg{
 	width: 100%;
 	box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-	
+	height: 300px !important;	
 }
 
 #posts{
@@ -171,7 +171,8 @@ footer {
 }
 
 .bx-wrapper, .bx-viewport {
-	height: 250px !important;
+	height: 300px !important;
+	width: 100%;
 }
 
 #selector-theme{
@@ -193,6 +194,7 @@ footer {
 	margin-top: 5px;
 	margin-bottom: 5px;
 	cursor: pointer;
+	/*background: url("../img/arrow-der.png") !important;*/
 }
 
 #to-green{

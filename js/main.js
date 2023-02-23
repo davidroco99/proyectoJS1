@@ -4,18 +4,19 @@ $(document).ready(function(){
 	if(window.location.href.indexOf('index') > -1){
 	  
 	  $('.galeria').bxSlider({
-	    auto: true,
+	    /*
+		auto: true,
   		//autoControls: true,
   		//stopAutoOnClick: true,
   		pager: true,
   		slideWidth: 600,
 		responsive: true,  
-		/*
+		*/
 		mode: 'fade',
 	    captions: false,
 	    slideWidth: 1200,
 	    responsive: true,
-	    pager: true*/
+	    pager: true
 	  });
 
 	}
